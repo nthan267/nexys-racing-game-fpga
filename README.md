@@ -5,6 +5,8 @@ A four-player racing game on FPGA. Advance during Green Light, get eliminated if
 
 **For full design details, specifications, testbench results, and synthesis analysis, see [COEN313_RedLightGreenLight_Report.pdf](./docs/COEN313_RedLightGreenLight_Report.pdf).**
 
+**Video demonstration available in the doc folder.**
+
 ## Quick Start
 
 ### Build with Vivado
@@ -59,11 +61,7 @@ Runs self-checking VHDL testbench covering five game scenarios. All assertions p
 - Deterministic tie-breaking; winner detection prioritized over timer expiry
 - On-chip LFSR for bonus bounded randomness challenge
 - Comprehensive testbench with 100% scenario coverage
-
-## Author
-
-Nathan Shalev  
-Concordia University — Department of Electrical and Computer Engineering  
+ 
 COEN 313 — Digital Systems Design  
 Winter 2026
 
