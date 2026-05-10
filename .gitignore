@@ -1,0 +1,54 @@
+# Vivado build artifacts
+*.jou
+*.log
+*.pb
+*.rpt
+*.rpx
+*.dcp
+*.edf
+*.edn
+
+# Vivado project files
+*.xpr
+.Xil/
+*.cache/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.hw/
+
+# ModelSim/QuestaSim
+work/
+*.wlf
+*.vcd
+transcript
+*.o
+*.so
+*.exe
+
+# General build directories
+obj/
+build/
+.build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backups
+*.bak
+*.backup
+*.orig
+
+# Bitstream (optional - exclude binary output)
+*.bit
+*.bin
+
+# Python cache (if running scripts)
+__pycache__/
+*.pyc
+*.pyo
